@@ -5,34 +5,215 @@
     <meta charset="UTF-8">
     <title>Privacy Policy - Shino Docx</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <meta name="description" content="Shino Docx Privacy Policy - Your data stays private and secure on your device">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #4a6bff;
+            --secondary-color: #f8f9fa;
+            --dark-color: #212529;
+            --light-color: #ffffff;
+            --accent-color: #ff6b6b;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark-color);
+            line-height: 1.7;
+            background-color: #f5f7ff;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+        }
+        
+        .privacy-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #6c5ce7 100%);
+            color: var(--light-color);
+            padding: 5rem 0;
+            margin-bottom: 3rem;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 10px 30px rgba(74, 107, 255, 0.2);
+        }
+        
+        .privacy-card {
+            background: var(--light-color);
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border: none;
+            transition: transform 0.3s ease;
+        }
+        
+        .privacy-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .privacy-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+        
+        .effective-date {
+            background-color: var(--secondary-color);
+            padding: 1rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .contact-link {
+            color: var(--primary-color);
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-link:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+        
+        .last-updated {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        
+        .highlight-box {
+            background-color: rgba(74, 107, 255, 0.1);
+            border-left: 4px solid var(--primary-color);
+            padding: 1.5rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1.5rem 0;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Header Section -->
+    <header class="privacy-header text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">Privacy Policy</h1>
+                    <p class="lead">Your privacy is our priority. Learn how we protect your data.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
     <div class="container py-5">
-        <h1 class="mb-4">Privacy Policy</h1>
-        <p><strong>Effective Date:</strong> July 3, 2025</p>
-
-        <p><strong>Shino Studio</strong> respects your privacy. This app does not collect or share personal information. All data is securely stored locally on your device.</p>
-
-        <h3>Information We Collect</h3>
-        <p>This application stores images, PDFs, and other documents locally. It does not upload or collect any personal data such as name, email, or location.</p>
-
-        <h3>Third-Party Sharing</h3>
-        <p>We do <strong>not</strong> share any data with third parties, advertisers, or analytics services.</p>
-
-        <h3>Tracking and Cookies</h3>
-        <p>This app does not use cookies or any tracking technologies.</p>
-
-        <h3>Platform</h3>
-        <p>Shino Studio is an Android-only application designed to improve productivity without compromising your privacy.</p>
-
-        <h3>Contact Us</h3>
-        <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:shinostudio@example.com">shinostudio@example.com</a>.</p>
-
-        <p class="mt-4 text-muted">Last updated: July 3, 2025</p>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <!-- Effective Date -->
+                <div class="effective-date mb-5">
+                    <p class="mb-0"><strong>Effective Date:</strong> July 3, 2025</p>
+                </div>
+                
+                <!-- Introduction Card -->
+                <div class="privacy-card">
+                    <div class="privacy-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <p><strong>Shino Studio</strong> respects your privacy. This app does not collect or share personal information. All data is securely stored locally on your device.</p>
+                </div>
+                
+                <!-- Information We Collect -->
+                <div class="privacy-card">
+                    <h3 class="mb-4"><i class="fas fa-database me-2"></i> Information We Collect</h3>
+                    <p>This application stores images, PDFs, and other documents locally. It does not upload or collect any personal data such as name, email, or location.</p>
+                    
+                    <div class="highlight-box">
+                        <p class="mb-0"><i class="fas fa-info-circle me-2"></i> All your documents remain on your device and are never transmitted to our servers or any third parties.</p>
+                    </div>
+                </div>
+                
+                <!-- Third-Party Sharing -->
+                <div class="privacy-card">
+                    <h3 class="mb-4"><i class="fas fa-handshake me-2"></i> Third-Party Sharing</h3>
+                    <p>We do <strong>not</strong> share any data with third parties, advertisers, or analytics services.</p>
+                    
+                    <div class="d-flex align-items-center mt-3">
+                        <div class="me-3">
+                            <i class="fas fa-ban text-danger" style="font-size: 1.5rem;"></i>
+                        </div>
+                        <div>
+                            <p class="mb-0">No data sharing means complete privacy protection for your documents.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tracking and Cookies -->
+                <div class="privacy-card">
+                    <h3 class="mb-4"><i class="fas fa-cookie-bite me-2"></i> Tracking and Cookies</h3>
+                    <p>This app does not use cookies or any tracking technologies.</p>
+                    
+                    <div class="alert alert-secondary mt-3" role="alert">
+                        <i class="fas fa-chart-line me-2"></i> We don't track your usage or collect analytics about how you use the app.
+                    </div>
+                </div>
+                
+                <!-- Platform -->
+                <div class="privacy-card">
+                    <h3 class="mb-4"><i class="fab fa-android me-2"></i> Platform</h3>
+                    <p>Shino Studio is an Android-only application designed to improve productivity without compromising your privacy.</p>
+                    
+                    <div class="d-flex align-items-center bg-light p-3 rounded mt-3">
+                        <i class="fab fa-google-play text-primary me-3" style="font-size: 2rem;"></i>
+                        <div>
+                            <p class="mb-0">Available exclusively on the Google Play Store for Android devices.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Us -->
+                <div class="privacy-card">
+                    <h3 class="mb-4"><i class="fas fa-envelope me-2"></i> Contact Us</h3>
+                    <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:shinostudio@example.com" class="contact-link">shinostudio@example.com</a>.</p>
+                    
+                    <div class="d-flex justify-content-center mt-4">
+                        <a href="mailto:shinostudio@example.com" class="btn btn-primary px-4 py-2">
+                            <i class="fas fa-paper-plane me-2"></i> Email Us
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Last Updated -->
+                <p class="last-updated text-center mt-5">Last updated: July 3, 2025</p>
+            </div>
+        </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">© 2025 Shino Studio. All rights reserved.</p>
+            <div class="mt-2">
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </body>
 
 </html>
